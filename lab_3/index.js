@@ -1,6 +1,6 @@
-var flag = document.getElementsByClassName("start").namedItem("value");
-var cn = 2;
 document.querySelector("#submit").onclick = function(){
+    var flag = document.getElementsByClassName("start").namedItem("value");
+    var cn = 2;
     if(flag === null){
         flag = 1;
         this.innerHTML = "New table";
